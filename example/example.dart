@@ -1,4 +1,4 @@
-import 'package:jwt_decoder/jwt_decoder.dart';
+import 'package:jwt_decoder_improved/jwt_decoder_improved.dart';
 
 main() {
   String token =
