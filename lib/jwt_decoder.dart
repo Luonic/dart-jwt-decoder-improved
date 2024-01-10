@@ -55,7 +55,7 @@ class JwtDecoder {
       return false;
     }
     // If the current date is after the expiration date, the token is already expired
-    return DateTime.now().isAfter(expirationDate);
+    return DateTime.timestamp().isAfter(expirationDate);
   }
 
   static DateTime? _getDate({required String token, required String claim}) {

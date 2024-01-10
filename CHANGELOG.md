@@ -1,3 +1,7 @@
+# [2.0.3] - Fix: comparsion of JWT exp now in UTC
+
+- Makes `isExpired` to calc validity in UTC format to avoid timezones
+
 # [2.0.2] - Changes expiration date's API
 
 - Makes `isExpired` return false when when there's no `exp` claim.
