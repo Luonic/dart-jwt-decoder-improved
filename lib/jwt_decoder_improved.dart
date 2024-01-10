@@ -1,4 +1,4 @@
-library jwt_decoder;
+library jwt_decoder_improved;
 
 import 'dart:convert';
 
